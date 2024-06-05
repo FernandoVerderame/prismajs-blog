@@ -14,7 +14,8 @@ const {
     readPostBySlug,
     updatePostById,
     deletePostById,
-    readPublishedPosts
+    readPublishedPosts,
+    readPostsByContent
 } = require("./utils/crud-posts.js");
 
 // Creo una categoris
@@ -67,3 +68,6 @@ const {
 
 // Leggo i post pubblicati
 // readPublishedPosts(console.log);
+
+// Leggo i post tramite una parola compresa nel content
+// readPostsByContent("tripletta", console.log);
