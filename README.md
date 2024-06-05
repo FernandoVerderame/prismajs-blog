@@ -35,3 +35,9 @@ Dopo aver definito i modelli, aggiungete le funzioni per creare una Categoria e 
 - Una funzione che consente di modificare un Post.
 
 - Una funzione che elimina un Post.
+
+### BONUS:
+
+1. Crea una funzione che restituisca solo i Post pubblicati.
+
+2. Crea una funzione che restituisca solo i Post che contengono una determinata stringa nel contenuto.
