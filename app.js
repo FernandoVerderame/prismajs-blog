@@ -13,7 +13,8 @@ const {
     readPosts,
     readPostBySlug,
     updatePostById,
-    deletePostById
+    deletePostById,
+    readPublishedPosts
 } = require("./utils/crud-posts.js");
 
 // Creo una categoris
@@ -31,15 +32,15 @@ const {
 
 // Creo un post
 // createPost({
-//     title: "Mondiali 2006",
-//     slug: "mondiali-2006",
+//     title: "Europa League",
+//     slug: "europa-league",
 //     categoryId: 2,
 //     tags: {
 //         connect: [{ id: 1 }]
 //     },
-//     image: "coppamondiali.png",
-//     content: "Mondiale dominato dagli azzurri",
-//     published: true
+//     image: "atalanta.png",
+//     content: "Lookman sconfigge i tedeschi con una tripletta",
+//     published: false
 // }, console.log);
 
 // Leggo tutti i posts
@@ -63,3 +64,6 @@ const {
 
 // Cancello il post
 // deletePostById(18, console.log);
+
+// Leggo i post pubblicati
+// readPublishedPosts(console.log);
